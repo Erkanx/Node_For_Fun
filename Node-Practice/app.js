@@ -8,5 +8,3 @@ console.log(notes.getNotes());
 //console.log(validator.isURL('https://google.com'));
 
 console.log(chalk.green.inverse('Success!'));
-
-console.log(chalk.green('Success!'));
