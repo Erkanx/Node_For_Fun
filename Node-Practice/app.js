@@ -1,10 +1,21 @@
 const notes = require('./notes');
-//const validator = require('validator');
 const chalk = require('chalk');
 
+const command = process.argv[2];
 
-console.log(notes.getNotes());
+if(command === 'add'){
+    console.log('Added Notes');
+} else if (command === 'remove'){
+    console.log('Removing notes!');
+}
 
-//console.log(validator.isURL('https://google.com'));
 
-console.log(chalk.green.inverse('Success!'));
+// console.log(notes.getNotes());
+
+// //console.log(validator.isURL('https://google.com'));
+
+// console.log(chalk.green.inverse('Success!'));
+
+// console.log(process.argv[2]);
+
+
